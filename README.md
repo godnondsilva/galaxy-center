@@ -40,10 +40,10 @@ Intitial release on 14/11/2020.
 
 ## Deno commands:
 
-- To run (localhost)
+- To run (localhost)\
 `deno run --allow-net --allow-read --allow-env src/mod.ts`
 
-- To test
+- To test\
 `deno test --allow-read`
 
 
