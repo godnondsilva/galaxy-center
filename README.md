@@ -7,6 +7,7 @@ Intitial release on 14/11/2020.
 
 # Project Structure:
 
+```
  ┣ data
  ┃ ┗ kepler_exoplanets_nasa.csv
  ┣ public
@@ -31,6 +32,7 @@ Intitial release on 14/11/2020.
  ┣ Dockerfile
  ┣ lock.json
  ┗ README.md
+```
 
 ---
 
