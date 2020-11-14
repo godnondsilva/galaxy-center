@@ -1,6 +1,6 @@
 # NASA Deno API
 
-This project is the final project from a udemy course.
+This project is the final project from a udemy course.\
 Intitial release on 14/11/2020.
 
 ---
@@ -79,6 +79,6 @@ NOTE: This step will return the name of the app which was created, please copy i
 - Step 5: Launch!\
 `heroku open -a <APP_NAME>`
 
-Congratulations! Your app is now deployed!\
+Congratulations! Your app is now deployed!
 
-NOTE: In order to update the container, repeat steps 1, 3 and 4 (step 1 if not logged in)\
+NOTE: In order to update the container, repeat steps 1, 3 and 4 (step 1 if not logged in)
