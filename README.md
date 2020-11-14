@@ -8,6 +8,8 @@ Intitial release on 14/11/2020.
 # Project Structure:
 
 ```
+ ┣ .vscode
+ ┃ ┗ settings.json
  ┣ data
  ┃ ┗ kepler_exoplanets_nasa.csv
  ┣ public
