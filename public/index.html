@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>NASA Control Center</title>
+  <title>Galaxy Control Center</title>
   <link href="//fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
   <link href="//fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
@@ -14,8 +14,8 @@
   <script src="javascripts/script.js"></script>
   <div id="top-content">
     <header>
-      <div>
-        <h1 class="title-global"><a onclick="navigate('launch')">NASA Mission Control</a></h1>
+      <div class="title-container">
+        <h1 class="title-global"><a class="title-link" onclick="navigate('launch')"><img class="title-image" src="images/logo.png" alt="GLX" width="30px" />Galaxy Mission Control</a></h1>
         <nav>
           <ul>
             <li><a onclick="navigate('launch')">[New Mission]</a></li>
@@ -24,19 +24,7 @@
           </ul>
         </nav>
       </div>
-      <div>
-        <h1 class="title-event">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="title-event-wrap">:N:O:</span><a href="https://deno.land">D:E:N:O</a><span class="title-event-wrap">:</span>
-        </h1>
-      </div>
     </header>
-
-    <div id="sidebar">
-      <div id="sponsor">
-        <div class="quiet">We are going interstellar! </div>
-        <div class="sponsor">In partnership with SpaceX and Zero to Mastery we are advancing technology to explore planets beyond our solar system.</div>
-      </div>
-    </div>
 
     <main>
       <article id="launch">
@@ -59,7 +47,7 @@
           </div>
           <div class="form-item">
             <label>Rocket Type          </label>
-            <input type="text" id="rocket-name" value="ZTM Experimental IS1" disabled />
+            <input type="text" id="rocket-name" value="GLX Falcon 1" disabled />
           </div>
           <div class="form-item">
             <label>Destination Exoplanet</label>
@@ -77,7 +65,7 @@
       </article>
 
       <article id="upcoming" hidden>
-        <p>Upcoming missions including both SpaceX and Zero to Mastery rockets.</p>
+        <p>Upcoming missions including GLX and SpaceX rockets.</p>
         <p>Warning! Clicking on the <span class="delete">✖</span> aborts the mission.</p>
         <div id="upcoming-list"></div>
       </article>
@@ -86,7 +74,7 @@
 
   <footer>
     <div class="quiet">
-      This is not an official site and is not affiliated with NASA or SpaceX in any way. For educational purposes only.
+      &copy; Galaxy Mission Control by Godnon Dsilva
     </div>
   </footer>
 

@@ -5,11 +5,6 @@ import { join,
     log
  } from "../deps.ts";
  
-// Interface method
-// interface Planet {
-//     [ key : string ] : string
-// }
-
 type Planet = Record<string, string>
 
 let planets : Array<Planet>;

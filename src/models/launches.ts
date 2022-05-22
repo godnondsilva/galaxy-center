@@ -46,7 +46,6 @@ async function downloadLaunchData() {
         }
         
         launches.set(flightData.flightNumber, flightData)
-        // log.info(JSON.stringify(flightData))
     }
 }
 
@@ -77,6 +76,6 @@ export function removeOne(id : number) {
 export function addOne(data : Launch) {
     launches.set(data.flightNumber, Object.assign(data, {
         upcoming: true,
-        customers: ["ZTM", "NASA"]
+        customers: ["GLX", "NASA"]
     }))
 }
