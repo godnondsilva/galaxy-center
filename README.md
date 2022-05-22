@@ -1,4 +1,4 @@
-# Galaxy Mission Control
+# Galaxy Center
 
 An API demonstration project with Deno, Oak, Docker and Typescript
 
