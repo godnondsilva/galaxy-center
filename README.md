@@ -15,7 +15,7 @@ An API demonstration project with Deno, Oak, Docker and Typescript
 ## Docker commands:
 
 - To build\
-  `docker build -t <NAME_OF_THE_CONTAINER>`
+  `docker build -t <NAME_OF_THE_CONTAINER> .`
 
 - To run (localhost)\
   `docker run -it -p 8000:8000 <CONTAINER_LOCATION_ON_DOCKER_HUB>`
